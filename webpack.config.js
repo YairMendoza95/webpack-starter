@@ -80,6 +80,6 @@ module.exports = {
             filename: "[name].css",
             ignoreOrder: false
         }),
-        ew CleanWebpackPlugin()
+        new CleanWebpackPlugin()
     ]
 };
